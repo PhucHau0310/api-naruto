@@ -28,7 +28,7 @@ const characterController = {
                             thumbnails.push({
                                 name: name,
                                 url:
-                                    'http://localhost:9000/v1/' +
+                                    'https://api-naruto-h8vd.onrender.com/v1' +
                                     url?.split('/wiki/')[1],
                                 image: image || 'Not update',
                             });
